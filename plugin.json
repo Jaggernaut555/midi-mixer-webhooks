@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/midi-mixer-plugin/plugin.schema.json",
+  "id": "ca.jaggernaut.midi-mixer.webhooks",
+  "name": "Webhooks",
+  "type": "node",
+  "version": "1.0.0",
+  "author": "MIDI Mixer",
+  "main": "lib/main.js",
+  "settings": {
+    "WebhookURL": {
+      "label": "URL to request",
+      "type": "text",
+      "required": true
+    },
+    "WebhookPayload": {
+      "label": "Payload",
+      "type": "text",
+      "required": false,
+      "fallback": "{ }"
+    }
+  }
+}
