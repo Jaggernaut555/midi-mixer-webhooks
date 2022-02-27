@@ -24,15 +24,10 @@ sendButton.on("pressed", async () => {
 });
 
 async function init() {
-
   settings = await $MM.getSettings();
 
   url = settings["WebhookURL"];
   payload = settings["WebhookPayload"];
-
-  if (!payload) {
-    payload = "{ }";
-  }
 }
 
 init();

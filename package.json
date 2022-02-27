@@ -23,7 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.26.0",
-    "midi-mixer-plugin": "^0.4.0"
+    "midi-mixer-plugin": "^1.0.2"
   },
   "bundledDependencies": [
     "midi-mixer-plugin",
