@@ -7,10 +7,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "dist": "midi-mixer pack"
+    "dist": "midi-mixer pack",
+    "semantic-release": "semantic-release",
+    "postversion": "npx ts-node scripts/bump-manifest.ts && midi-mixer pack"
   },
   "keywords": [
     "midi-mixer",
@@ -30,7 +31,11 @@
     "axios"
   ],
   "devDependencies": {
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^17.0.21",
     "midi-mixer-cli": "^1.0.4",
+    "semantic-release": "^19.0.2",
     "typescript": "^4.5.5"
   },
   "repository": {
