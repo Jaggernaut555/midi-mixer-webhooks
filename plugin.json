@@ -3,7 +3,7 @@
   "id": "ca.jaggernaut.midi-mixer.webhooks",
   "name": "Webhooks",
   "type": "node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "MIDI Mixer",
   "main": "lib/main.js",
   "settings": {

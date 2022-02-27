@@ -1,6 +1,6 @@
 {
   "name": "ca.jaggernaut.midi-mixer.webhooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to send webhook requests",
   "main": "lib/main.js",
   "directories": {
